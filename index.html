@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">TJ</div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <div class="hero-container">
+            <p>Hi, I am TJ</p>
+            <h1>Design-centric digital marketer and web designer</h1>
+            <p>Let's do amazing things together</p>
+            <button id="aboutBtn">About Me</button>
+        </div>
+        
+    </div>
+
+    <div class="about-section" id="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    
+                </div>
+                <div class="about-image">
+                    <img src="Images\placeholder.jpg"  alt="Your Photo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="skills-section">
+        <div class="skills-container">
+            <h2>Skills</h2>
+            <div class="skills-cards">
+                <div class="skills-card">
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+    
+                <div class="skills-card">
+                    <h3>Web Designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+
+                <div class="skills-card">
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-section">
+        <div class="section-container">
+            <h2>Projects</h2>
+            
+
+            <div class="project-category">
+                <h3>Web Design</h3>
+                <div class="project-cards">
+                    <div class="project-card">
+                        <img src="Images\Just.jpeg" alt="Web Design Project 1">
+                        <h4>Project 1</h4>
+                    </div>
+                    <div class="project-card">
+                        <img src="Images\Just.jpeg"   alt="Web Design Project 2">
+                        <h4>Project 2</h4>
+                    </div>
+                    <div class="project-card">
+                        <img src="Images\Just.jpeg" alt="Web Design Project 3">
+                        <h4>Project 3</h4>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="section-container">
+            <h2>Contact Me</h2>
+            <p>Feel free to send me a message or download my CV:</p>
+
+            <form action="TO-DO" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        
+            <a href="Assets/TJ_CV.pdf" download class="download-cv-btn">Download CV</a>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
